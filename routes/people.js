@@ -25,14 +25,6 @@ router.get('/', function(req, res, next) {
     }
 
     res.send(records);
-  
-
-  // do {
-  //   let { data: response } = await getPeople(page);
-  //   console.log(totalPages);
-  //   records = records.concat(response.data);
-  //   page++;
-  // } while (page < totalPages)
   }
 
 
@@ -43,6 +35,7 @@ router.get('/', function(req, res, next) {
 module.exports = router;
 
   //pulls the first page//
+  
   // const getPeople = async () => {
   //   try {
   //     return await axios.get(uri);
